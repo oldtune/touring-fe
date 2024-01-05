@@ -1,9 +1,12 @@
+import { Button } from "@mui/material";
+import { SearchBar } from "./SearchBar";
 import "./html-overlay.css";
 
 export const HtmlOverlay = () => {
   return (
     <div id="html-overlay">
-      <button>Add tour</button>
+      <SearchBar />
+      <Button variant="contained">Add Tour</Button>
     </div>
   );
 };
